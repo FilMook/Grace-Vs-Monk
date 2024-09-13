@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 5vw; /* Responsive font size */
+    background-color: rgb(247, 131, 237);
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.Board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Board {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/690/498/544/hello-kitty-wallpaper-preview.jpg);
+    background-size: 500px;
+    border: 5px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+.Retry {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 20vh; /* Full viewport height */
+    flex-direction: column; /* Stack children vertically */
+    margin: 0; /* Remove margin */
+}
+
+.RetryButton {
+    padding: 5px 20px;
+    font-size: 3vw; /* Responsive button size */
+    background-color: #ff00bf;
+    color: #fff;
+    border: none;
+    border-radius: 52px;
+    cursor: pointer;
+    display: block;
+}
+
+.RetryButton:hover {
+    background-color: #d32f2f;
+}
+
+.start-over {
+    display: block;
+    margin: 20px;
+    font-size: 3vw; /* Responsive link size */
+    color: #064600;
+}
